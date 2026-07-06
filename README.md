@@ -21,6 +21,11 @@ Figures are computed from the WhereToEmigrate pathway database (snapshot: July 2
 verification methodology: https://wheretoemigrate.io/methodology — values are directional; always
 verify with the official government source linked per pathway before acting.
 
+## Mirrors
+- Zenodo (DOI): https://doi.org/10.5281/zenodo.21223745
+- Kaggle: https://www.kaggle.com/datasets/wheretoemigrate/global-emigration-dataset
+- Hugging Face: https://huggingface.co/datasets/brien18/global-emigration-dataset
+
 ## License & citation
 **CC BY 4.0** — free to use, share and adapt **with attribution**:
 > Source: [WhereToEmigrate — Emigration Research](https://wheretoemigrate.io/research/)
