@@ -1,0 +1,36 @@
+dataset,field_name,data_type,description,unit,example_value
+visa-thresholds-global-2026,country,string,Country or territory name,,Canada
+visa-thresholds-global-2026,program,string,Official visa or immigration program name,,Express Entry - Federal Skilled Worker Program (FSWP)
+visa-thresholds-global-2026,min_income_eur,numeric (nullable),Minimum annual income or salary threshold required for the visa,EUR,50700
+visa-thresholds-global-2026,min_savings_eur,numeric (nullable),Minimum savings or financial proof required,EUR,10226
+visa-thresholds-global-2026,language_requirement,string,Language proficiency requirement for the visa,,English CLB 7 or French NCLC 7 (approx. B2+)
+visa-thresholds-global-2026,education_requirement,string,Minimum education or qualification required,,Recognized university degree
+visa-thresholds-global-2026,work_experience_years,integer,Minimum years of relevant work experience required,years,1
+visa-thresholds-global-2026,processing_time_official_days,integer,Official government-stated processing time,days,180
+visa-thresholds-global-2026,processing_time_real_median_days,integer,Real-world median processing time based on applicant reports,days,330
+visa-thresholds-global-2026,quota_annual,integer (nullable),Annual quota or cap on visa issuances (null if uncapped),visas,16900
+visa-thresholds-global-2026,path_to_pr_years,numeric (nullable),Years from visa grant to permanent residency eligibility (0 = direct PR; null = no path),years,0
+visa-thresholds-global-2026,path_to_citizenship_years,numeric (nullable),Years from visa grant to citizenship eligibility (null = no path),years,3
+visa-thresholds-global-2026,source_url,string (URL),Official government or authoritative source URL,,https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html
+visa-thresholds-global-2026,last_updated,string (ISO 8601),Date when the record was last verified,,2026-02-21T00:00:00Z
+cost-of-living-global-2026,country,string,Country or territory name,,Germany
+cost-of-living-global-2026,tier,integer,"Cost tier classification (1 = high income, 2 = upper-middle, 3 = lower-middle)",,1
+cost-of-living-global-2026,currency,string,Local currency ISO code,,EUR
+cost-of-living-global-2026,city,string,City name,,Berlin
+cost-of-living-global-2026,monthly_cost_single_eur,integer,Estimated total monthly living cost for a single person including rent,EUR,2200
+cost-of-living-global-2026,monthly_cost_family_eur,integer,Estimated total monthly living cost for a family of four including rent,EUR,4100
+cost-of-living-global-2026,rent_1br_center_eur,integer,Average monthly rent for a 1-bedroom apartment in city center,EUR,1232
+cost-of-living-global-2026,rent_1br_periphery_eur,integer,Average monthly rent for a 1-bedroom apartment outside city center,EUR,850
+salary-by-profession-global-2026,country,string,Country or territory name,,Germany
+salary-by-profession-global-2026,profession,string,Profession or occupation title,,Software Engineer
+salary-by-profession-global-2026,level,string,"Seniority level: junior, mid, or senior",,mid
+salary-by-profession-global-2026,gross_annual_eur,integer,Gross (pre-tax) annual salary,EUR,65000
+salary-by-profession-global-2026,net_annual_eur,integer,Net (after tax and social contributions) annual salary,EUR,40200
+quality-of-life-global-2026,country,string,Country or territory name,,Japan
+quality-of-life-global-2026,security_score,numeric,"Personal safety and security score (0-10 scale, higher is better)",score (0-10),9.0
+quality-of-life-global-2026,healthcare_score,numeric,"Healthcare system quality score (0-10 scale, higher is better)",score (0-10),9.5
+quality-of-life-global-2026,transport_score,numeric,"Public transport and infrastructure score (0-10 scale, higher is better)",score (0-10),9.5
+quality-of-life-global-2026,climate_score,numeric,"Climate livability score (0-10 scale, higher is better)",score (0-10),6.5
+quality-of-life-global-2026,global_score,numeric,"Weighted composite quality of life score (0-10 scale, higher is better)",score (0-10),8.8
+quality-of-life-global-2026,internet_speed_mbps,integer,Median fixed broadband download speed,Mbps,210
+quality-of-life-global-2026,english_proficiency,string,"English proficiency level: native, very high, high, moderate, or low",,low

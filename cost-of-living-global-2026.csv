@@ -1,0 +1,77 @@
+country,tier,currency,city,monthly_cost_single_eur,monthly_cost_family_eur,rent_1br_center_eur,rent_1br_periphery_eur
+Canada,1,CAD,Toronto,2590,4850,1551,1346
+Canada,1,CAD,Vancouver,2690,5050,1781,1488
+Canada,1,CAD,Montreal,2000,3850,1181,886
+Australia,1,AUD,Sydney,3140,5650,2072,1447
+Australia,1,AUD,Melbourne,2503,4800,1475,1096
+Australia,1,AUD,Brisbane,2448,4550,1565,1130
+Germany,1,EUR,Berlin,2200,4100,1232,850
+Germany,1,EUR,Munich,2536,4650,1467,1080
+Germany,1,EUR,Hamburg,2090,3950,1085,780
+Portugal,1,EUR,Lisbon,2180,3800,1429,1001
+Portugal,1,EUR,Porto,1750,3200,1043,750
+Portugal,1,EUR,Faro,1500,2800,850,650
+United Kingdom,1,GBP,London,3977,6800,2734,2029
+United Kingdom,1,GBP,Manchester,2340,4200,1287,936
+United Kingdom,1,GBP,Edinburgh,2340,4250,1287,936
+Netherlands,1,EUR,Amsterdam,3133,5400,2030,1500
+Netherlands,1,EUR,Rotterdam,2350,4200,1447,1100
+Netherlands,1,EUR,The Hague,2480,4350,1600,1150
+New Zealand,2,NZD,Auckland,2200,4100,1485,1045
+New Zealand,2,NZD,Wellington,2090,3900,1375,990
+New Zealand,2,NZD,Christchurch,1870,3550,1100,825
+Spain,2,EUR,Madrid,2250,3900,1400,950
+Spain,2,EUR,Barcelona,2350,4050,1450,1000
+Spain,2,EUR,Valencia,1700,3100,1025,720
+UAE,2,AED,Dubai,3093,5600,2143,1322
+UAE,2,AED,Abu Dhabi,2325,4400,1375,950
+UAE,2,AED,Sharjah,1650,3200,825,575
+Ireland,2,EUR,Dublin,3043,5400,2500,1900
+Ireland,2,EUR,Cork,2595,4600,2000,1500
+Ireland,2,EUR,Galway,2514,4400,1850,1400
+Sweden,2,SEK,Stockholm,2578,4650,1403,910
+Sweden,2,SEK,Gothenburg,1938,3700,1056,748
+Sweden,2,SEK,Malmö,1707,3350,880,660
+Switzerland,2,CHF,Zurich,4070,7200,2430,1854
+Switzerland,2,CHF,Geneva,3780,6700,2200,1680
+Switzerland,2,CHF,Basel,3400,6100,1890,1470
+Thailand,3,THB,Bangkok,1170,2400,574,283
+Thailand,3,THB,Chiang Mai,858,1750,364,208
+Thailand,3,THB,Phuket,1144,2250,520,312
+Mexico,3,MXN,Mexico City,1150,2300,690,460
+Mexico,3,MXN,Guadalajara,880,1850,460,300
+Mexico,3,MXN,Playa del Carmen,1200,2350,644,414
+Japan,3,JPY,Tokyo,1930,3800,1123,621
+Japan,3,JPY,Osaka,1500,3050,793,488
+Japan,3,JPY,Fukuoka,1250,2600,610,366
+Estonia,3,EUR,Tallinn,1594,3000,695,500
+Estonia,3,EUR,Tartu,1383,2650,600,420
+Estonia,3,EUR,Pärnu,1200,2350,480,350
+Singapore,3,SGD,Singapore,3426,6200,2438,1808
+Costa Rica,3,USD,San José,1290,2500,644,460
+Costa Rica,3,USD,Tamarindo,1750,3200,1334,920
+Costa Rica,3,USD,Puerto Viejo,1150,2200,552,368
+Malaysia,3,MYR,Kuala Lumpur,1100,2200,580,370
+Malaysia,3,MYR,Penang,850,1750,393,258
+Malaysia,3,MYR,Johor Bahru,920,1850,428,300
+Panama,3,USD,Panama City,1520,2900,920,598
+Panama,3,USD,David,1050,2050,552,368
+Panama,3,USD,Boquete,1200,2250,694,460
+Austria,3,EUR,Vienna,2100,3900,1100,780
+Austria,3,EUR,Graz,1805,3400,750,550
+Austria,3,EUR,Salzburg,2186,4000,1150,850
+Chile,3,CLP,Santiago,1300,2600,650,430
+Chile,3,CLP,Valparaíso,1050,2150,460,320
+Chile,3,CLP,Concepción,990,2000,400,280
+Czech Republic,3,CZK,Prague,1881,3500,1028,855
+Czech Republic,3,CZK,Brno,1500,2900,720,560
+Czech Republic,3,CZK,Ostrava,1250,2500,520,400
+Denmark,3,DKK,Copenhagen,2929,5200,1772,1198
+Denmark,3,DKK,Aarhus,2285,4200,1340,938
+Denmark,3,DKK,Odense,2110,3900,1140,804
+South Korea,3,KRW,Seoul,1764,3500,858,553
+South Korea,3,KRW,Busan,1380,2800,621,414
+South Korea,3,KRW,Incheon,1400,2850,635,428
+Uruguay,3,UYU,Montevideo,1380,2700,600,425
+Uruguay,3,UYU,Punta del Este,1750,3300,920,644
+Uruguay,3,UYU,Colonia,1100,2200,460,322

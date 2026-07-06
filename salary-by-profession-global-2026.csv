@@ -1,0 +1,781 @@
+country,profession,level,gross_annual_eur,net_annual_eur
+Canada,Software Engineer,junior,40200,31400
+Canada,Software Engineer,mid,56400,42800
+Canada,Software Engineer,senior,80400,57900
+Australia,Software Engineer,junior,42000,33600
+Australia,Software Engineer,mid,60000,46200
+Australia,Software Engineer,senior,84000,61300
+Germany,Software Engineer,junior,48000,30700
+Germany,Software Engineer,mid,65000,40200
+Germany,Software Engineer,senior,90000,53500
+Portugal,Software Engineer,junior,22000,16500
+Portugal,Software Engineer,mid,35000,24800
+Portugal,Software Engineer,senior,52000,34600
+United Kingdom,Software Engineer,junior,38600,30800
+United Kingdom,Software Engineer,mid,58500,44200
+United Kingdom,Software Engineer,senior,84200,59400
+Netherlands,Software Engineer,junior,42000,31500
+Netherlands,Software Engineer,mid,62000,43800
+Netherlands,Software Engineer,senior,85000,56200
+New Zealand,Software Engineer,junior,33000,26800
+New Zealand,Software Engineer,mid,46200,36300
+New Zealand,Software Engineer,senior,63800,47600
+Spain,Software Engineer,junior,26000,20300
+Spain,Software Engineer,mid,38000,28200
+Spain,Software Engineer,senior,55000,38500
+UAE,Software Engineer,junior,37500,37500
+UAE,Software Engineer,mid,55000,55000
+UAE,Software Engineer,senior,80000,80000
+Ireland,Software Engineer,junior,42000,33600
+Ireland,Software Engineer,mid,62000,46000
+Ireland,Software Engineer,senior,88000,60500
+Sweden,Software Engineer,junior,38700,29500
+Sweden,Software Engineer,mid,52800,38800
+Sweden,Software Engineer,senior,70400,49800
+Switzerland,Software Engineer,junior,79800,66400
+Switzerland,Software Engineer,mid,105000,85100
+Switzerland,Software Engineer,senior,136500,108200
+Thailand,Software Engineer,junior,10400,9400
+Thailand,Software Engineer,mid,18200,16000
+Thailand,Software Engineer,senior,28600,24300
+Mexico,Software Engineer,junior,13800,11700
+Mexico,Software Engineer,mid,23000,19100
+Mexico,Software Engineer,senior,38000,30400
+Japan,Software Engineer,junior,30500,24400
+Japan,Software Engineer,mid,45700,35200
+Japan,Software Engineer,senior,67100,49500
+Estonia,Software Engineer,junior,24000,19700
+Estonia,Software Engineer,mid,36000,29200
+Estonia,Software Engineer,senior,52000,41600
+Singapore,Software Engineer,junior,37300,34500
+Singapore,Software Engineer,mid,55200,49700
+Singapore,Software Engineer,senior,82800,72500
+Costa Rica,Software Engineer,junior,16600,14600
+Costa Rica,Software Engineer,mid,28500,24300
+Costa Rica,Software Engineer,senior,42000,34400
+Malaysia,Software Engineer,junior,10800,10100
+Malaysia,Software Engineer,mid,18400,16600
+Malaysia,Software Engineer,senior,29000,25400
+Panama,Software Engineer,junior,16100,14200
+Panama,Software Engineer,mid,29000,25000
+Panama,Software Engineer,senior,44200,37600
+Austria,Software Engineer,junior,44000,29900
+Austria,Software Engineer,mid,60000,39200
+Austria,Software Engineer,senior,80000,50400
+Chile,Software Engineer,junior,16600,14600
+Chile,Software Engineer,mid,27600,23500
+Chile,Software Engineer,senior,41400,34000
+Czech Republic,Software Engineer,junior,22400,17400
+Czech Republic,Software Engineer,mid,34000,26100
+Czech Republic,Software Engineer,senior,48000,36500
+Denmark,Software Engineer,junior,48200,30800
+Denmark,Software Engineer,mid,64300,40100
+Denmark,Software Engineer,senior,85600,51400
+South Korea,Software Engineer,junior,31000,26400
+South Korea,Software Engineer,mid,48300,39700
+South Korea,Software Engineer,senior,69000,54500
+Uruguay,Software Engineer,junior,13800,11200
+Uruguay,Software Engineer,mid,23000,18000
+Uruguay,Software Engineer,senior,36800,27600
+Canada,Nurse,junior,40200,31400
+Canada,Nurse,mid,53600,40700
+Canada,Nurse,senior,67000,49100
+Australia,Nurse,junior,39000,31200
+Australia,Nurse,mid,48000,37400
+Australia,Nurse,senior,60000,44800
+Germany,Nurse,junior,33000,22400
+Germany,Nurse,mid,40000,26600
+Germany,Nurse,senior,50000,32200
+Portugal,Nurse,junior,16000,12600
+Portugal,Nurse,mid,22000,16500
+Portugal,Nurse,senior,30000,21500
+United Kingdom,Nurse,junior,30400,24800
+United Kingdom,Nurse,mid,38000,30200
+United Kingdom,Nurse,senior,49100,37200
+Netherlands,Nurse,junior,30000,23800
+Netherlands,Nurse,mid,38000,29200
+Netherlands,Nurse,senior,50000,36800
+New Zealand,Nurse,junior,27500,22800
+New Zealand,Nurse,mid,35200,28500
+New Zealand,Nurse,senior,44000,34300
+Spain,Nurse,junior,22000,17600
+Spain,Nurse,mid,28000,21600
+Spain,Nurse,senior,36000,26600
+UAE,Nurse,junior,22500,22500
+UAE,Nurse,mid,32500,32500
+UAE,Nurse,senior,45000,45000
+Ireland,Nurse,junior,32000,26600
+Ireland,Nurse,mid,40000,31800
+Ireland,Nurse,senior,52000,39200
+Sweden,Nurse,junior,30800,24200
+Sweden,Nurse,mid,37400,28700
+Sweden,Nurse,senior,46200,34100
+Switzerland,Nurse,junior,63000,53600
+Switzerland,Nurse,mid,84000,69700
+Switzerland,Nurse,senior,110000,88900
+Thailand,Nurse,junior,5200,4900
+Thailand,Nurse,mid,8300,7700
+Thailand,Nurse,senior,13000,11700
+Mexico,Nurse,junior,6400,5600
+Mexico,Nurse,mid,9700,8300
+Mexico,Nurse,senior,15200,12500
+Japan,Nurse,junior,24400,19800
+Japan,Nurse,mid,32900,26000
+Japan,Nurse,senior,42700,32500
+Estonia,Nurse,junior,14400,11800
+Estonia,Nurse,mid,19200,15700
+Estonia,Nurse,senior,26400,21400
+Singapore,Nurse,junior,24800,23300
+Singapore,Nurse,mid,34500,31500
+Singapore,Nurse,senior,48300,42500
+Costa Rica,Nurse,junior,8300,7400
+Costa Rica,Nurse,mid,12400,10800
+Costa Rica,Nurse,senior,18400,15500
+Malaysia,Nurse,junior,6200,5900
+Malaysia,Nurse,mid,9200,8500
+Malaysia,Nurse,senior,14800,13300
+Panama,Nurse,junior,8300,7500
+Panama,Nurse,mid,12900,11200
+Panama,Nurse,senior,18900,16100
+Austria,Nurse,junior,32000,22400
+Austria,Nurse,mid,40000,27200
+Austria,Nurse,senior,52000,34100
+Chile,Nurse,junior,8300,7300
+Chile,Nurse,mid,12900,11000
+Chile,Nurse,senior,19300,16000
+Czech Republic,Nurse,junior,15600,12200
+Czech Republic,Nurse,mid,20800,16100
+Czech Republic,Nurse,senior,28000,21400
+Denmark,Nurse,junior,40200,26100
+Denmark,Nurse,mid,50200,31900
+Denmark,Nurse,senior,63400,39200
+South Korea,Nurse,junior,22100,19300
+South Korea,Nurse,mid,29000,24500
+South Korea,Nurse,senior,38600,31400
+Uruguay,Nurse,junior,6900,5700
+Uruguay,Nurse,mid,10300,8200
+Uruguay,Nurse,senior,15200,11600
+Canada,Doctor,junior,100500,67300
+Canada,Doctor,mid,154100,96100
+Canada,Doctor,senior,218900,126900
+Australia,Doctor,junior,66000,49500
+Australia,Doctor,mid,108000,74500
+Australia,Doctor,senior,168000,106700
+Germany,Doctor,junior,58000,36200
+Germany,Doctor,mid,90000,53500
+Germany,Doctor,senior,150000,83600
+Portugal,Doctor,junior,28000,20600
+Portugal,Doctor,mid,45000,30700
+Portugal,Doctor,senior,72000,45000
+United Kingdom,Doctor,junior,40900,32400
+United Kingdom,Doctor,mid,76100,54200
+United Kingdom,Doctor,senior,117000,76900
+Netherlands,Doctor,junior,55000,39600
+Netherlands,Doctor,mid,90000,58500
+Netherlands,Doctor,senior,150000,88500
+New Zealand,Doctor,junior,49500,38500
+New Zealand,Doctor,mid,82500,59400
+New Zealand,Doctor,senior,132000,88000
+Spain,Doctor,junior,32000,24600
+Spain,Doctor,mid,50000,36200
+Spain,Doctor,senior,80000,52800
+UAE,Doctor,junior,60000,60000
+UAE,Doctor,mid,120000,120000
+UAE,Doctor,senior,225000,225000
+Ireland,Doctor,junior,50000,38200
+Ireland,Doctor,mid,85000,57800
+Ireland,Doctor,senior,140000,84900
+Sweden,Doctor,junior,44000,32600
+Sweden,Doctor,mid,66000,46200
+Sweden,Doctor,senior,96800,64100
+Switzerland,Doctor,junior,105000,87200
+Switzerland,Doctor,mid,189000,151200
+Switzerland,Doctor,senior,315000,241500
+Thailand,Doctor,junior,10400,9400
+Thailand,Doctor,mid,20800,18000
+Thailand,Doctor,senior,39000,32200
+Mexico,Doctor,junior,12400,10500
+Mexico,Doctor,mid,25300,20500
+Mexico,Doctor,senior,46000,35400
+Japan,Doctor,junior,36600,29300
+Japan,Doctor,mid,61000,46400
+Japan,Doctor,senior,109800,78000
+Estonia,Doctor,junior,24000,19700
+Estonia,Doctor,mid,38400,30700
+Estonia,Doctor,senior,57600,44900
+Singapore,Doctor,junior,48300,44300
+Singapore,Doctor,mid,96600,83300
+Singapore,Doctor,senior,172500,140800
+Costa Rica,Doctor,junior,16600,14400
+Costa Rica,Doctor,mid,27600,23000
+Costa Rica,Doctor,senior,46000,37200
+Malaysia,Doctor,junior,12400,11500
+Malaysia,Doctor,mid,24800,22100
+Malaysia,Doctor,senior,46400,39400
+Panama,Doctor,junior,18400,16100
+Panama,Doctor,mid,32200,27400
+Panama,Doctor,senior,55200,45700
+Austria,Doctor,junior,55000,35800
+Austria,Doctor,mid,90000,54000
+Austria,Doctor,senior,145000,80800
+Chile,Doctor,junior,18400,16100
+Chile,Doctor,mid,36800,30600
+Chile,Doctor,senior,64400,50600
+Czech Republic,Doctor,junior,24000,18700
+Czech Republic,Doctor,mid,40000,30400
+Czech Republic,Doctor,senior,64000,46800
+Denmark,Doctor,junior,57600,36400
+Denmark,Doctor,mid,93500,56100
+Denmark,Doctor,senior,147300,82500
+South Korea,Doctor,junior,41400,35200
+South Korea,Doctor,mid,69000,55200
+South Korea,Doctor,senior,124200,93200
+Uruguay,Doctor,junior,13800,11000
+Uruguay,Doctor,mid,27600,21100
+Uruguay,Doctor,senior,46000,33600
+Canada,Civil Engineer,junior,40200,31400
+Canada,Civil Engineer,mid,53600,40700
+Canada,Civil Engineer,senior,73700,53600
+Australia,Civil Engineer,junior,48000,37800
+Australia,Civil Engineer,mid,63000,47400
+Australia,Civil Engineer,senior,84000,59600
+Germany,Civil Engineer,junior,42000,27500
+Germany,Civil Engineer,mid,56000,35600
+Germany,Civil Engineer,senior,78000,47200
+Portugal,Civil Engineer,junior,18000,14000
+Portugal,Civil Engineer,mid,28000,20600
+Portugal,Civil Engineer,senior,42000,29000
+United Kingdom,Civil Engineer,junior,32200,26200
+United Kingdom,Civil Engineer,mid,46800,36100
+United Kingdom,Civil Engineer,senior,66300,48200
+Netherlands,Civil Engineer,junior,38000,29200
+Netherlands,Civil Engineer,mid,52000,38200
+Netherlands,Civil Engineer,senior,72000,49800
+New Zealand,Civil Engineer,junior,30800,25200
+New Zealand,Civil Engineer,mid,41800,33100
+New Zealand,Civil Engineer,senior,55000,41600
+Spain,Civil Engineer,junior,24000,19000
+Spain,Civil Engineer,mid,34000,25600
+Spain,Civil Engineer,senior,48000,34200
+UAE,Civil Engineer,junior,30000,30000
+UAE,Civil Engineer,mid,47500,47500
+UAE,Civil Engineer,senior,70000,70000
+Ireland,Civil Engineer,junior,36000,29200
+Ireland,Civil Engineer,mid,50000,38200
+Ireland,Civil Engineer,senior,70000,50000
+Sweden,Civil Engineer,junior,35200,27200
+Sweden,Civil Engineer,mid,46200,34600
+Sweden,Civil Engineer,senior,61600,44200
+Switzerland,Civil Engineer,junior,68300,57400
+Switzerland,Civil Engineer,mid,89300,73100
+Switzerland,Civil Engineer,senior,115500,92400
+Thailand,Civil Engineer,junior,7800,7200
+Thailand,Civil Engineer,mid,13000,11700
+Thailand,Civil Engineer,senior,20800,18000
+Mexico,Civil Engineer,junior,9200,7800
+Mexico,Civil Engineer,mid,16100,13300
+Mexico,Civil Engineer,senior,27600,22100
+Japan,Civil Engineer,junior,27400,22300
+Japan,Civil Engineer,mid,39600,31000
+Japan,Civil Engineer,senior,57900,43400
+Estonia,Civil Engineer,junior,18000,14800
+Estonia,Civil Engineer,mid,27600,22400
+Estonia,Civil Engineer,senior,40800,32600
+Singapore,Civil Engineer,junior,31000,28800
+Singapore,Civil Engineer,mid,44800,40600
+Singapore,Civil Engineer,senior,69000,60500
+Costa Rica,Civil Engineer,junior,11000,9700
+Costa Rica,Civil Engineer,mid,18400,15700
+Costa Rica,Civil Engineer,senior,27600,22800
+Malaysia,Civil Engineer,junior,8300,7800
+Malaysia,Civil Engineer,mid,14800,13400
+Malaysia,Civil Engineer,senior,23200,20300
+Panama,Civil Engineer,junior,12900,11400
+Panama,Civil Engineer,mid,20700,17800
+Panama,Civil Engineer,senior,32200,27000
+Austria,Civil Engineer,junior,40000,27600
+Austria,Civil Engineer,mid,54000,36000
+Austria,Civil Engineer,senior,72000,46100
+Chile,Civil Engineer,junior,12000,10600
+Chile,Civil Engineer,mid,20700,17600
+Chile,Civil Engineer,senior,32200,26300
+Czech Republic,Civil Engineer,junior,17600,13700
+Czech Republic,Civil Engineer,mid,26400,20300
+Czech Republic,Civil Engineer,senior,38400,29200
+Denmark,Civil Engineer,junior,45500,29500
+Denmark,Civil Engineer,mid,60200,38300
+Denmark,Civil Engineer,senior,80400,49000
+South Korea,Civil Engineer,junior,27600,23500
+South Korea,Civil Engineer,mid,41400,34100
+South Korea,Civil Engineer,senior,58600,46900
+Uruguay,Civil Engineer,junior,9200,7500
+Uruguay,Civil Engineer,mid,16600,13000
+Uruguay,Civil Engineer,senior,27600,20700
+Canada,Accountant,junior,36900,29200
+Canada,Accountant,mid,50200,38600
+Canada,Accountant,senior,73700,53600
+Australia,Accountant,junior,36000,29200
+Australia,Accountant,mid,51000,39600
+Australia,Accountant,senior,72000,52200
+Germany,Accountant,junior,36000,24100
+Germany,Accountant,mid,50000,32200
+Germany,Accountant,senior,70000,43200
+Portugal,Accountant,junior,16000,12600
+Portugal,Accountant,mid,24000,17800
+Portugal,Accountant,senior,38000,26500
+United Kingdom,Accountant,junior,30400,24800
+United Kingdom,Accountant,mid,42100,33000
+United Kingdom,Accountant,senior,61400,45000
+Netherlands,Accountant,junior,34000,26500
+Netherlands,Accountant,mid,48000,35700
+Netherlands,Accountant,senior,68000,47600
+New Zealand,Accountant,junior,27500,22800
+New Zealand,Accountant,mid,38500,30800
+New Zealand,Accountant,senior,52800,40200
+Spain,Accountant,junior,22000,17600
+Spain,Accountant,mid,32000,24200
+Spain,Accountant,senior,48000,34200
+UAE,Accountant,junior,25000,25000
+UAE,Accountant,mid,40000,40000
+UAE,Accountant,senior,62500,62500
+Ireland,Accountant,junior,34000,27800
+Ireland,Accountant,mid,48000,36800
+Ireland,Accountant,senior,70000,50000
+Sweden,Accountant,junior,33000,25600
+Sweden,Accountant,mid,44000,33000
+Sweden,Accountant,senior,59400,42800
+Switzerland,Accountant,junior,63000,53600
+Switzerland,Accountant,mid,84000,69700
+Switzerland,Accountant,senior,115500,92400
+Thailand,Accountant,junior,6200,5800
+Thailand,Accountant,mid,10400,9400
+Thailand,Accountant,senior,18200,15800
+Mexico,Accountant,junior,7400,6400
+Mexico,Accountant,mid,12900,10700
+Mexico,Accountant,senior,23000,18400
+Japan,Accountant,junior,24400,19800
+Japan,Accountant,mid,36600,28500
+Japan,Accountant,senior,54900,41200
+Estonia,Accountant,junior,16800,13800
+Estonia,Accountant,mid,24000,19700
+Estonia,Accountant,senior,36000,29200
+Singapore,Accountant,junior,27600,25700
+Singapore,Accountant,mid,41400,37600
+Singapore,Accountant,senior,62100,54500
+Costa Rica,Accountant,junior,9200,8100
+Costa Rica,Accountant,mid,14700,12700
+Costa Rica,Accountant,senior,23000,19100
+Malaysia,Accountant,junior,7400,7000
+Malaysia,Accountant,mid,12400,11200
+Malaysia,Accountant,senior,20700,18100
+Panama,Accountant,junior,10100,8900
+Panama,Accountant,mid,16600,14300
+Panama,Accountant,senior,27600,23200
+Austria,Accountant,junior,36000,25200
+Austria,Accountant,mid,50000,33500
+Austria,Accountant,senior,70000,44800
+Chile,Accountant,junior,9200,8100
+Chile,Accountant,mid,16600,14100
+Chile,Accountant,senior,27600,22600
+Czech Republic,Accountant,junior,15200,11900
+Czech Republic,Accountant,mid,22400,17400
+Czech Republic,Accountant,senior,33600,25600
+Denmark,Accountant,junior,42800,27800
+Denmark,Accountant,mid,57600,36500
+Denmark,Accountant,senior,77200,47200
+South Korea,Accountant,junior,24100,20500
+South Korea,Accountant,mid,37900,31200
+South Korea,Accountant,senior,55200,43600
+Uruguay,Accountant,junior,7400,6000
+Uruguay,Accountant,mid,12400,9700
+Uruguay,Accountant,senior,20700,15500
+Canada,Teacher,junior,33500,26600
+Canada,Teacher,mid,46900,36100
+Canada,Teacher,senior,60300,44500
+Australia,Teacher,junior,39000,31200
+Australia,Teacher,mid,48000,37400
+Australia,Teacher,senior,60000,44800
+Germany,Teacher,junior,42000,27500
+Germany,Teacher,mid,55000,34600
+Germany,Teacher,senior,70000,43200
+Portugal,Teacher,junior,16000,12600
+Portugal,Teacher,mid,24000,17800
+Portugal,Teacher,senior,34000,24000
+United Kingdom,Teacher,junior,32200,26200
+United Kingdom,Teacher,mid,42100,33000
+United Kingdom,Teacher,senior,52600,39600
+Netherlands,Teacher,junior,36000,27600
+Netherlands,Teacher,mid,48000,35700
+Netherlands,Teacher,senior,62000,43800
+New Zealand,Teacher,junior,24200,20200
+New Zealand,Teacher,mid,33000,27000
+New Zealand,Teacher,senior,42900,33600
+Spain,Teacher,junior,22000,17600
+Spain,Teacher,mid,30000,22800
+Spain,Teacher,senior,40000,29200
+UAE,Teacher,junior,22500,22500
+UAE,Teacher,mid,37500,37500
+UAE,Teacher,senior,55000,55000
+Ireland,Teacher,junior,34000,27800
+Ireland,Teacher,mid,46000,35600
+Ireland,Teacher,senior,62000,44800
+Sweden,Teacher,junior,30800,24200
+Sweden,Teacher,mid,39600,30100
+Sweden,Teacher,senior,48400,35500
+Switzerland,Teacher,junior,63000,53600
+Switzerland,Teacher,mid,84000,69700
+Switzerland,Teacher,senior,110300,89100
+Thailand,Teacher,junior,5200,4900
+Thailand,Teacher,mid,9400,8600
+Thailand,Teacher,senior,15600,13800
+Mexico,Teacher,junior,5500,4800
+Mexico,Teacher,mid,9200,7800
+Mexico,Teacher,senior,15200,12500
+Japan,Teacher,junior,24400,19800
+Japan,Teacher,mid,35400,27600
+Japan,Teacher,senior,48800,36600
+Estonia,Teacher,junior,14400,11800
+Estonia,Teacher,mid,19200,15700
+Estonia,Teacher,senior,26400,21400
+Singapore,Teacher,junior,27600,25700
+Singapore,Teacher,mid,38600,35200
+Singapore,Teacher,senior,55200,48500
+Costa Rica,Teacher,junior,6900,6200
+Costa Rica,Teacher,mid,11000,9600
+Costa Rica,Teacher,senior,16600,14100
+Malaysia,Teacher,junior,5500,5200
+Malaysia,Teacher,mid,9200,8500
+Malaysia,Teacher,senior,14800,13300
+Panama,Teacher,junior,7400,6600
+Panama,Teacher,mid,11500,10000
+Panama,Teacher,senior,18400,15700
+Austria,Teacher,junior,36000,25200
+Austria,Teacher,mid,48000,32400
+Austria,Teacher,senior,64000,41600
+Chile,Teacher,junior,7400,6500
+Chile,Teacher,mid,12900,11000
+Chile,Teacher,senior,20700,17000
+Czech Republic,Teacher,junior,14400,11200
+Czech Republic,Teacher,mid,20000,15500
+Czech Republic,Teacher,senior,27200,20800
+Denmark,Teacher,junior,42800,27800
+Denmark,Teacher,mid,53600,34000
+Denmark,Teacher,senior,67000,41400
+South Korea,Teacher,junior,24100,20500
+South Korea,Teacher,mid,34500,28600
+South Korea,Teacher,senior,48300,38600
+Uruguay,Teacher,junior,5500,4500
+Uruguay,Teacher,mid,9200,7300
+Uruguay,Teacher,senior,14700,11200
+Canada,Project Manager,junior,43500,33800
+Canada,Project Manager,mid,60300,45100
+Canada,Project Manager,senior,87200,61500
+Australia,Project Manager,junior,48000,37800
+Australia,Project Manager,mid,66000,49500
+Australia,Project Manager,senior,90000,63600
+Germany,Project Manager,junior,48000,30700
+Germany,Project Manager,mid,65000,40200
+Germany,Project Manager,senior,90000,53500
+Portugal,Project Manager,junior,22000,16500
+Portugal,Project Manager,mid,34000,24000
+Portugal,Project Manager,senior,50000,33500
+United Kingdom,Project Manager,junior,38600,30800
+United Kingdom,Project Manager,mid,55600,41800
+United Kingdom,Project Manager,senior,81900,57800
+Netherlands,Project Manager,junior,42000,31500
+Netherlands,Project Manager,mid,60000,42600
+Netherlands,Project Manager,senior,85000,56200
+New Zealand,Project Manager,junior,33000,26800
+New Zealand,Project Manager,mid,46200,36300
+New Zealand,Project Manager,senior,63800,47600
+Spain,Project Manager,junior,28000,21600
+Spain,Project Manager,mid,40000,29200
+Spain,Project Manager,senior,58000,40000
+UAE,Project Manager,junior,37500,37500
+UAE,Project Manager,mid,57500,57500
+UAE,Project Manager,senior,85000,85000
+Ireland,Project Manager,junior,42000,33600
+Ireland,Project Manager,mid,60000,44200
+Ireland,Project Manager,senior,85000,58200
+Sweden,Project Manager,junior,39600,30100
+Sweden,Project Manager,mid,52800,38800
+Sweden,Project Manager,senior,70400,49800
+Switzerland,Project Manager,junior,84000,69700
+Switzerland,Project Manager,mid,110300,89100
+Switzerland,Project Manager,senior,147000,115500
+Thailand,Project Manager,junior,10400,9400
+Thailand,Project Manager,mid,18200,16000
+Thailand,Project Manager,senior,28600,24300
+Mexico,Project Manager,junior,11000,9300
+Mexico,Project Manager,mid,20200,16500
+Mexico,Project Manager,senior,34500,27100
+Japan,Project Manager,junior,30500,24400
+Japan,Project Manager,mid,45700,35200
+Japan,Project Manager,senior,67100,49500
+Estonia,Project Manager,junior,21600,17700
+Estonia,Project Manager,mid,33600,27200
+Estonia,Project Manager,senior,48000,38400
+Singapore,Project Manager,junior,37300,34500
+Singapore,Project Manager,mid,55200,49700
+Singapore,Project Manager,senior,82800,72500
+Costa Rica,Project Manager,junior,13800,12100
+Costa Rica,Project Manager,mid,23000,19600
+Costa Rica,Project Manager,senior,36800,30200
+Malaysia,Project Manager,junior,11000,10300
+Malaysia,Project Manager,mid,18400,16600
+Malaysia,Project Manager,senior,29000,25400
+Panama,Project Manager,junior,13800,12200
+Panama,Project Manager,mid,23000,19800
+Panama,Project Manager,senior,36800,31000
+Austria,Project Manager,junior,44000,29900
+Austria,Project Manager,mid,60000,39200
+Austria,Project Manager,senior,82000,51400
+Chile,Project Manager,junior,13800,12100
+Chile,Project Manager,mid,23000,19600
+Chile,Project Manager,senior,36800,30200
+Czech Republic,Project Manager,junior,20000,15500
+Czech Republic,Project Manager,mid,30400,23300
+Czech Republic,Project Manager,senior,44800,33800
+Denmark,Project Manager,junior,48200,30800
+Denmark,Project Manager,mid,64300,40100
+Denmark,Project Manager,senior,88400,52700
+South Korea,Project Manager,junior,31000,26400
+South Korea,Project Manager,mid,46200,38000
+South Korea,Project Manager,senior,65500,51700
+Uruguay,Project Manager,junior,11000,8800
+Uruguay,Project Manager,mid,18400,14300
+Uruguay,Project Manager,senior,29400,22100
+Canada,Electrician,junior,33500,26600
+Canada,Electrician,mid,46900,36100
+Canada,Electrician,senior,60300,44500
+Australia,Electrician,junior,39000,31200
+Australia,Electrician,mid,48000,37400
+Australia,Electrician,senior,60000,44800
+Germany,Electrician,junior,30000,20800
+Germany,Electrician,mid,38000,25600
+Germany,Electrician,senior,50000,32200
+Portugal,Electrician,junior,12600,10200
+Portugal,Electrician,mid,18000,14000
+Portugal,Electrician,senior,26000,19400
+United Kingdom,Electrician,junior,27400,22600
+United Kingdom,Electrician,mid,35700,28600
+United Kingdom,Electrician,senior,46800,36100
+Netherlands,Electrician,junior,30000,23800
+Netherlands,Electrician,mid,40000,30400
+Netherlands,Electrician,senior,54000,39400
+New Zealand,Electrician,junior,24200,20200
+New Zealand,Electrician,mid,33000,27000
+New Zealand,Electrician,senior,44000,34300
+Spain,Electrician,junior,18000,14800
+Spain,Electrician,mid,24000,19000
+Spain,Electrician,senior,34000,25600
+UAE,Electrician,junior,15000,15000
+UAE,Electrician,mid,25000,25000
+UAE,Electrician,senior,40000,40000
+Ireland,Electrician,junior,30000,24800
+Ireland,Electrician,mid,40000,31800
+Ireland,Electrician,senior,55000,40800
+Sweden,Electrician,junior,28600,22500
+Sweden,Electrician,mid,37400,28700
+Sweden,Electrician,senior,46200,34100
+Switzerland,Electrician,junior,57800,49000
+Switzerland,Electrician,mid,73500,61300
+Switzerland,Electrician,senior,94500,77000
+Thailand,Electrician,junior,4200,3900
+Thailand,Electrician,mid,7000,6500
+Thailand,Electrician,senior,11700,10500
+Mexico,Electrician,junior,4600,4000
+Mexico,Electrician,mid,7800,6700
+Mexico,Electrician,senior,13800,11400
+Japan,Electrician,junior,21300,17400
+Japan,Electrician,mid,30500,24100
+Japan,Electrician,senior,42700,32500
+Estonia,Electrician,junior,14400,11800
+Estonia,Electrician,mid,21600,17700
+Estonia,Electrician,senior,30000,24300
+Singapore,Electrician,junior,20700,19500
+Singapore,Electrician,mid,31000,28500
+Singapore,Electrician,senior,44800,39800
+Costa Rica,Electrician,junior,5500,4900
+Costa Rica,Electrician,mid,9200,8000
+Costa Rica,Electrician,senior,14700,12500
+Malaysia,Electrician,junior,4800,4600
+Malaysia,Electrician,mid,8300,7700
+Malaysia,Electrician,senior,13800,12400
+Panama,Electrician,junior,6400,5700
+Panama,Electrician,mid,10600,9200
+Panama,Electrician,senior,17000,14500
+Austria,Electrician,junior,30000,21600
+Austria,Electrician,mid,40000,27600
+Austria,Electrician,senior,54000,36000
+Chile,Electrician,junior,6400,5700
+Chile,Electrician,mid,11000,9500
+Chile,Electrician,senior,18400,15300
+Czech Republic,Electrician,junior,13200,10300
+Czech Republic,Electrician,mid,19200,14900
+Czech Republic,Electrician,senior,27200,20800
+Denmark,Electrician,junior,37400,24500
+Denmark,Electrician,mid,48200,30800
+Denmark,Electrician,senior,61400,38200
+South Korea,Electrician,junior,20700,17800
+South Korea,Electrician,mid,31000,25800
+South Korea,Electrician,senior,44800,36200
+Uruguay,Electrician,junior,5500,4500
+Uruguay,Electrician,mid,9200,7300
+Uruguay,Electrician,senior,14700,11200
+Canada,Chef,junior,26800,21800
+Canada,Chef,mid,36900,29200
+Canada,Chef,senior,50200,38600
+Australia,Chef,junior,30000,24600
+Australia,Chef,mid,39000,31200
+Australia,Chef,senior,51000,39600
+Germany,Chef,junior,26000,18400
+Germany,Chef,mid,34000,23200
+Germany,Chef,senior,48000,31200
+Portugal,Chef,junior,12600,10200
+Portugal,Chef,mid,18000,14000
+Portugal,Chef,senior,28000,20600
+United Kingdom,Chef,junior,25700,21400
+United Kingdom,Chef,mid,35100,28200
+United Kingdom,Chef,senior,49100,37200
+Netherlands,Chef,junior,28000,22400
+Netherlands,Chef,mid,36000,27600
+Netherlands,Chef,senior,50000,36800
+New Zealand,Chef,junior,22000,18500
+New Zealand,Chef,mid,30800,25200
+New Zealand,Chef,senior,41300,32500
+Spain,Chef,junior,18000,14800
+Spain,Chef,mid,24000,19000
+Spain,Chef,senior,36000,26600
+UAE,Chef,junior,15000,15000
+UAE,Chef,mid,30000,30000
+UAE,Chef,senior,50000,50000
+Ireland,Chef,junior,28000,23400
+Ireland,Chef,mid,38000,30400
+Ireland,Chef,senior,52000,39200
+Sweden,Chef,junior,26400,20900
+Sweden,Chef,mid,33000,25600
+Sweden,Chef,senior,44000,33000
+Switzerland,Chef,junior,47300,40500
+Switzerland,Chef,mid,63000,53600
+Switzerland,Chef,senior,84000,69700
+Thailand,Chef,junior,3900,3700
+Thailand,Chef,mid,7000,6500
+Thailand,Chef,senior,13000,11700
+Mexico,Chef,junior,4600,4000
+Mexico,Chef,mid,8300,7100
+Mexico,Chef,senior,15200,12500
+Japan,Chef,junior,18300,15000
+Japan,Chef,mid,27400,21600
+Japan,Chef,senior,39600,30200
+Estonia,Chef,junior,12000,9900
+Estonia,Chef,mid,16800,13800
+Estonia,Chef,senior,24000,19700
+Singapore,Chef,junior,17200,16200
+Singapore,Chef,mid,27600,25400
+Singapore,Chef,senior,44800,39800
+Costa Rica,Chef,junior,5500,4900
+Costa Rica,Chef,mid,9200,8000
+Costa Rica,Chef,senior,15200,12800
+Malaysia,Chef,junior,4100,3900
+Malaysia,Chef,mid,7400,6900
+Malaysia,Chef,senior,12400,11200
+Panama,Chef,junior,5500,4900
+Panama,Chef,mid,9200,8000
+Panama,Chef,senior,16100,13700
+Austria,Chef,junior,26000,19000
+Austria,Chef,mid,34000,24000
+Austria,Chef,senior,48000,32400
+Chile,Chef,junior,5500,4900
+Chile,Chef,mid,9700,8400
+Chile,Chef,senior,16600,13800
+Czech Republic,Chef,junior,11200,8800
+Czech Republic,Chef,mid,16000,12400
+Czech Republic,Chef,senior,24000,18300
+Denmark,Chef,junior,34700,22800
+Denmark,Chef,mid,45500,29500
+Denmark,Chef,senior,58300,36600
+South Korea,Chef,junior,17200,14900
+South Korea,Chef,mid,27600,23000
+South Korea,Chef,senior,41400,33500
+Uruguay,Chef,junior,4600,3800
+Uruguay,Chef,mid,7800,6200
+Uruguay,Chef,senior,12900,9900
+Canada,Marketing Manager,junior,40200,31400
+Canada,Marketing Manager,mid,56400,42800
+Canada,Marketing Manager,senior,80400,57900
+Australia,Marketing Manager,junior,42000,33600
+Australia,Marketing Manager,mid,60000,46200
+Australia,Marketing Manager,senior,84000,61300
+Germany,Marketing Manager,junior,40000,26600
+Germany,Marketing Manager,mid,55000,34600
+Germany,Marketing Manager,senior,78000,47200
+Portugal,Marketing Manager,junior,20000,15400
+Portugal,Marketing Manager,mid,30000,22000
+Portugal,Marketing Manager,senior,45000,30700
+United Kingdom,Marketing Manager,junior,35100,28200
+United Kingdom,Marketing Manager,mid,52600,39600
+United Kingdom,Marketing Manager,senior,76100,54200
+Netherlands,Marketing Manager,junior,40000,30400
+Netherlands,Marketing Manager,mid,58000,41400
+Netherlands,Marketing Manager,senior,82000,54800
+New Zealand,Marketing Manager,junior,30800,25200
+New Zealand,Marketing Manager,mid,41300,32700
+New Zealand,Marketing Manager,senior,57800,43500
+Spain,Marketing Manager,junior,26000,20300
+Spain,Marketing Manager,mid,38000,28200
+Spain,Marketing Manager,senior,55000,38500
+UAE,Marketing Manager,junior,32500,32500
+UAE,Marketing Manager,mid,50000,50000
+UAE,Marketing Manager,senior,75000,75000
+Ireland,Marketing Manager,junior,38000,30400
+Ireland,Marketing Manager,mid,55000,40800
+Ireland,Marketing Manager,senior,80000,55200
+Sweden,Marketing Manager,junior,35200,27200
+Sweden,Marketing Manager,mid,48400,35700
+Sweden,Marketing Manager,senior,66000,46800
+Switzerland,Marketing Manager,junior,73500,61300
+Switzerland,Marketing Manager,mid,105000,85100
+Switzerland,Marketing Manager,senior,147000,115500
+Thailand,Marketing Manager,junior,7800,7200
+Thailand,Marketing Manager,mid,14300,12800
+Thailand,Marketing Manager,senior,23400,20200
+Mexico,Marketing Manager,junior,9200,7800
+Mexico,Marketing Manager,mid,16100,13300
+Mexico,Marketing Manager,senior,27600,22100
+Japan,Marketing Manager,junior,27400,22300
+Japan,Marketing Manager,mid,42700,32700
+Japan,Marketing Manager,senior,61000,44800
+Estonia,Marketing Manager,junior,18000,14800
+Estonia,Marketing Manager,mid,27600,22400
+Estonia,Marketing Manager,senior,40800,32600
+Singapore,Marketing Manager,junior,31000,28800
+Singapore,Marketing Manager,mid,48300,43400
+Singapore,Marketing Manager,senior,72400,63000
+Costa Rica,Marketing Manager,junior,11000,9700
+Costa Rica,Marketing Manager,mid,18400,15700
+Costa Rica,Marketing Manager,senior,29400,24200
+Malaysia,Marketing Manager,junior,8300,7800
+Malaysia,Marketing Manager,mid,14800,13400
+Malaysia,Marketing Manager,senior,24800,21700
+Panama,Marketing Manager,junior,11500,10100
+Panama,Marketing Manager,mid,19300,16500
+Panama,Marketing Manager,senior,31300,26200
+Austria,Marketing Manager,junior,38000,26200
+Austria,Marketing Manager,mid,54000,36000
+Austria,Marketing Manager,senior,76000,48400
+Chile,Marketing Manager,junior,11000,9700
+Chile,Marketing Manager,mid,20700,17600
+Chile,Marketing Manager,senior,34500,28200
+Czech Republic,Marketing Manager,junior,17600,13700
+Czech Republic,Marketing Manager,mid,26400,20300
+Czech Republic,Marketing Manager,senior,40000,30400
+Denmark,Marketing Manager,junior,45500,29500
+Denmark,Marketing Manager,mid,60200,38300
+Denmark,Marketing Manager,senior,83000,50500
+South Korea,Marketing Manager,junior,27600,23500
+South Korea,Marketing Manager,mid,41400,34100
+South Korea,Marketing Manager,senior,62100,49200
+Uruguay,Marketing Manager,junior,9200,7400
+Uruguay,Marketing Manager,mid,16100,12500
+Uruguay,Marketing Manager,senior,27600,20700
