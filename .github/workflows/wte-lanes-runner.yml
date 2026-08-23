@@ -20,7 +20,7 @@ jobs:
         run: |
           set -euo pipefail
           rm -f /tmp/wte-contract.json
-          if ! curl -sS --fail-with-body \
+          if ! curl -sS --fail-with-body --retry 6 --retry-all-errors --retry-delay 2 \
             'https://lpouhhkxgevpiwyzcsdg.supabase.co/functions/v1/migration-content-p0-export' \
             -o /tmp/wte-contract.json; then
             echo '--- export error body ---'
@@ -39,6 +39,9 @@ jobs:
             --emit-tree bundle/tree.ndjson
           test "$(find out/lanes -name index.html | wc -l | tr -d ' ')" = 94
           test "$(wc -l < bundle/tree.ndjson | tr -d ' ')" = 97
+          rm -rf out2
+          python3 generate_wte_lanes.py --contract /tmp/wte-contract.json --out-dir out2/lanes
+          diff -qr out/lanes out2/lanes
       - name: Commit transfer bundle
         run: |
           set -euo pipefail
