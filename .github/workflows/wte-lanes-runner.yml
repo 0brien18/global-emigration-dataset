@@ -4,8 +4,36 @@ on:
     branches: [wte-lanes-runner]
   pull_request:
     branches: [main]
+    types: [ready_for_review]
+permissions:
+  contents: write
 jobs:
-  smoke:
+  build:
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[bundle]') }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - run: echo WTE_PUBLIC_RUNNER_OK
+      - uses: actions/checkout@v4
+        with:
+          ref: wte-lanes-runner
+      - name: Generate frozen WTE lanes bundle
+        run: |
+          set -euo pipefail
+          rm -rf out bundle
+          mkdir -p bundle
+          python3 generate_wte_lanes.py \
+            --contract 'https://lpouhhkxgevpiwyzcsdg.supabase.co/functions/v1/migration-content-p0-export' \
+            --out-dir out/lanes \
+            --emit-tree bundle/tree.ndjson
+          test "$(find out/lanes -name index.html | wc -l | tr -d ' ')" = 94
+          test "$(wc -l < bundle/tree.ndjson | tr -d ' ')" = 97
+      - name: Commit transfer bundle
+        run: |
+          set -euo pipefail
+          git config user.name 'WTE lanes compute'
+          git config user.email 'wte-lanes-compute@users.noreply.github.com'
+          git add bundle/tree.ndjson
+          if ! git diff --cached --quiet; then
+            git commit -m 'build WTE lanes transfer bundle [bundle]'
+            git push origin HEAD:wte-lanes-runner
+          fi
