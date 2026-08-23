@@ -1,0 +1,9 @@
+name: WTE lanes public runner
+on:
+  push:
+    branches: [wte-lanes-runner]
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo WTE_PUBLIC_RUNNER_OK
