@@ -2,6 +2,8 @@ name: WTE lanes public runner
 on:
   push:
     branches: [wte-lanes-runner]
+  pull_request:
+    branches: [main]
 jobs:
   smoke:
     runs-on: ubuntu-latest
