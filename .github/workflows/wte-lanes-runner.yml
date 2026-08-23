@@ -42,13 +42,15 @@ jobs:
           rm -rf out2
           python3 generate_wte_lanes.py --contract /tmp/wte-contract.json --out-dir out2/lanes
           diff -qr out/lanes out2/lanes
+          split -l 8 -d -a 2 bundle/tree.ndjson bundle/chunk-
+          test "$(find bundle -maxdepth 1 -name 'chunk-*' | wc -l | tr -d ' ')" = 13
       - name: Commit transfer bundle
         run: |
           set -euo pipefail
           git config user.name 'WTE lanes compute'
           git config user.email 'wte-lanes-compute@users.noreply.github.com'
-          git add bundle/tree.ndjson
+          git add bundle
           if ! git diff --cached --quiet; then
-            git commit -m 'build WTE lanes transfer bundle [bundle]'
+            git commit -m 'split WTE lanes transfer bundle [bundle]'
             git push origin HEAD:wte-lanes-runner
           fi
