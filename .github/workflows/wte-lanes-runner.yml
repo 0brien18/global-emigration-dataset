@@ -16,13 +16,25 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: wte-lanes-runner
+      - name: Fetch frozen P0 contract
+        run: |
+          set -euo pipefail
+          rm -f /tmp/wte-contract.json
+          if ! curl -sS --fail-with-body \
+            'https://lpouhhkxgevpiwyzcsdg.supabase.co/functions/v1/migration-content-p0-export' \
+            -o /tmp/wte-contract.json; then
+            echo '--- export error body ---'
+            cat /tmp/wte-contract.json || true
+            exit 1
+          fi
+          python3 -c "import json; d=json.load(open('/tmp/wte-contract.json')); print('export',d.get('version'),'pages=',len(d.get('pages',[])))"
       - name: Generate frozen WTE lanes bundle
         run: |
           set -euo pipefail
           rm -rf out bundle
           mkdir -p bundle
           python3 generate_wte_lanes.py \
-            --contract 'https://lpouhhkxgevpiwyzcsdg.supabase.co/functions/v1/migration-content-p0-export' \
+            --contract /tmp/wte-contract.json \
             --out-dir out/lanes \
             --emit-tree bundle/tree.ndjson
           test "$(find out/lanes -name index.html | wc -l | tr -d ' ')" = 94
